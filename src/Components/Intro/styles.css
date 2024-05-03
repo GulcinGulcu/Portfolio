@@ -1,3 +1,7 @@
+.intro {
+    text-align: center;
+}
+
 .section__title--intro {
     font-weight: 300;
 }
@@ -18,6 +22,15 @@
     padding: 8px 12px;
     display: inline-block;
     margin-top: 5px;
+}
+
+.section__subtitle--intro {
+    text-transform: uppercase;
+    width: 100%;
+    font-size: var(--fontSize-h2);
+    margin-bottom: 1rem;
+    padding: 0;
+    letter-spacing: 3px;
 }
 
 @media (min-width: 800px) {
@@ -49,7 +62,6 @@
         left: -5%;
         width: calc(100% + 5%);
         padding: 5px;
-        text-transform: uppercase;
         align-self: center;
         margin-top: 0;
         

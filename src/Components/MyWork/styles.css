@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 0 auto;
-    gap: 5px;
+    gap: 15px;
 }
 
 .portfolio__img {
@@ -28,9 +28,17 @@
 .portfolio__item {
     background-color: var(--color-blue);
     overflow: hidden;
+    display: block;
 }
 
 .portfolio__img:hover, .portfolio__item:focus .portfolio__img {
    opacity: 0.5;
    transform: scale(1.2);
+}
+
+@media (min-width: 800px) {
+    .portfolio {
+        gap: 5px;
+    }
+
 }
