@@ -28,17 +28,17 @@ export const projectsData = [
         id: '3',
         image: movieApp,
         title: 'Movie App',
-        subtitle: 'Using movie database',
+        subtitle: 'Click and Flip',
         link: 'https://chipper-tanuki-120da0.netlify.app',
-        summary: 'Built with JS, the app serves as a movie finder using the movie database. '
+        summary: 'Built with JS, the app serves as a movie finder using the movie database. App provides three search options. Movies can be found by actor\'s name, genre or year. Details of the movie can be found on the back of the movie poster by clicking.'
     },
     {
         id: '4',
         image: ticTacToe,
-        title: 'Tic-Tac-Toe',
+        title: 'Tic-Tac-Toe Game',
         subtitle: 'Can you win this?',
         link: 'https://tic-tac-toe-glcn.netlify.app',
-        summary: ''
+        summary: 'The aim of the project is improving JS algorithm skills by creating computer play function. Computer can make defense and win if conditions are suitable.'
     },
     {
         id: '5',
@@ -59,7 +59,7 @@ export const projectsData = [
     {
         id: '7',
         image: tailwind,
-        title: 'Great example of tables with Tailwind CSS',
+        title: 'Table with Tailwind CSS',
         subtitle: 'Using JSON placeholder',
         link: 'https://tailwind-css-tawny.vercel.app/',
         summary: '',
