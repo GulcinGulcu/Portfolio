@@ -27,7 +27,7 @@ export const projectsData = [
     {
         id: '3',
         image: movieApp,
-        title: 'Movie App',
+        title: 'Movie Application',
         subtitle: 'Click and Flip',
         link: 'https://chipper-tanuki-120da0.netlify.app',
         summary: 'Built with JS, the app serves as a movie finder using the movie database. App provides three search options. Movies can be found by actor\'s name, genre or year. Details of the movie can be found on the back of the movie poster by clicking.'
@@ -51,8 +51,8 @@ export const projectsData = [
     {
         id: '6',
         image: quizApp,
-        title: 'Quiz App',
-        subtitle: 'Everytime with new questions',
+        title: 'Quiz Application',
+        subtitle: 'with new questions',
         link: 'https://quiz-app-one-woad-37.vercel.app',
         summary: 'Built with ReactJS, the app serves as a fun quiz game using the open Trivia Database. After asnwering the questions you can see your score, right and wrong answers.',
     },
