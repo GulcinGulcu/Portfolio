@@ -15,18 +15,25 @@ export const MyWorkDetail = () => {
     <>
       {project && (
         <>
-          <section class="intro">
-            <h1 class="section__title section__title--intro">
+          <section className="intro">
+            <h1 className="section__title section__title--intro">
               {project.title}
             </h1>
-            <p class="section__subtitle section__subtitle--intro">
+            <p className="section__subtitle section__subtitle--intro">
               {project.subtitle}
             </p>
-            <img src={project.image} alt="project" class="intro__img" />
+            <img src={project.image} alt="project" className="intro__img" />
           </section>
-          <div class="portfolio-item-individual">
+          <div className="portfolio-item-individual">
             <p>{project.summary}</p>
-            <p><b>Project Link: <a href={project.link} target="_blank" rel="noreferrer">{project.link}</a></b></p>
+            <p>
+              <b>
+                Project Link:{" "}
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  {project.link}
+                </a>
+              </b>
+            </p>
           </div>
         </>
       )}

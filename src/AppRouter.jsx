@@ -5,6 +5,7 @@ import { About } from "./Components/About";
 import { MyWork } from "./Components/MyWork";
 import { MyWorkDetail } from "./Components/MyWorkDetail";
 import { Layout } from "./Components/Layout";
+import { TechStack } from "./Components/TechStack";
 
 export const AppRouter = () => {
   return (
@@ -17,6 +18,7 @@ export const AppRouter = () => {
               <Intro />
               <About />
               <MyServices />
+              <TechStack />
               <MyWork />
             </>
           }

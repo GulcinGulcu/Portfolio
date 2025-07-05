@@ -1,0 +1,18 @@
+.tech-stack {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+}
+
+.tech-stack__item {
+    border: 1px solid var(--color-blue);
+    padding: 10px 20px;
+    font-size: 26px;
+}
+
+.tech-stack__item:hover {
+    scale: 1;
+}
