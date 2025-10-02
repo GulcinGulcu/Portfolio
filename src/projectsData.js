@@ -5,9 +5,20 @@ import recipeApp from "./Assests/recipe_app.jpg";
 import teacherApp from "./Assests/teacher_app.jpg";
 import ticTacToe from "./Assests/Tic_tac_toe.jpg";
 import quizApp from "./Assests/Quiz_app.jpg";
+import productStore from "./Assests/product-store.png";
 import figmaDesign from "./Assests/lablab_figmahero.png";
 
 export const projectsData = [
+  {
+    id: "9",
+    image: productStore,
+    title: "Fullstack Product Store",
+    subtitle:
+      "Live single-domain e-commerce demo",
+    link: "https://ecommerce-ea93.onrender.com",
+    summary:
+      "Single-domain deployment (UI + API) with clean /api routing and production build scripts with Next.js, Express, MongoDB, Zustand, Chakra UI. CRUD product flows via REST endpoints backed by MongoDB; predictable data model and validations. Responsive, accessible UI using Chakra (dialogs, forms, keyboard/focus states). Production-readiness: environment variables and error handling.",
+  },
   {
     id: "1",
     image: teacherApp,
