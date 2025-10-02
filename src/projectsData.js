@@ -1,12 +1,12 @@
-import movieApp from "./Assests/movie_finder.jpg";
-import memoryGame from "./Assests/memory_game.jpg";
-import tailwind from "./Assests/tailwind_css.jpg";
-import recipeApp from "./Assests/recipe_app.jpg";
-import teacherApp from "./Assests/teacher_app.jpg";
-import ticTacToe from "./Assests/Tic_tac_toe.jpg";
-import quizApp from "./Assests/Quiz_app.jpg";
-import productStore from "./Assests/product-store.png";
-import figmaDesign from "./Assests/lablab_figmahero.png";
+import movieApp from "./Assets/movie_finder.jpg";
+import memoryGame from "./Assets/memory_game.jpg";
+import tailwind from "./Assets/tailwind_css.jpg";
+import recipeApp from "./Assets/recipe_app.jpg";
+import teacherApp from "./Assets/teacher_app.jpg";
+import ticTacToe from "./Assets/Tic_tac_toe.jpg";
+import quizApp from "./Assets/Quiz_app.jpg";
+import productStore from "./Assets/product-store.png";
+import figmaDesign from "./Assets/lablab_figmahero.png";
 
 export const projectsData = [
   {
