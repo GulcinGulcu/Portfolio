@@ -1,4 +1,4 @@
-import myImg from "../../Assests/20170619_194152.jpg";
+import myImg from "../../Assets/20170619_194152.jpg";
 import "./styles.css";
 
 export const Intro = () => {
