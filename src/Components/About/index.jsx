@@ -16,12 +16,7 @@ export const About = () => {
           React which are essential skills for a frontend developer. I completed
           several projects that involved building responsive and user-friendly
           websites, showcasing my ability to translate design concepts into
-          functional code.
-        </p>
-        <p>
-          Transitioned from education area to web development as a former
-          teacher, I bring exceptional problem-solving skills and a strong grasp
-          of educational tools and collaborative project management.
+          functional code.I expanded my skill set by learning Node.js and Express.js, enabling me to work as a full-stack developer.
         </p>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import myImg from "../../Assets/20170619_194152.jpg";
+import myImg from "../../Assets/me.jpg";
 import "./styles.css";
 
 export const Intro = () => {
@@ -8,7 +8,7 @@ export const Intro = () => {
         Hi, I am <strong>Gulcin Gulcu</strong>
       </h1>
       <p className="section__subtitle section__subtitle--intro">
-        front-end dev
+        fullstack dev
       </p>
       <img src={myImg} alt="user" className="section__img--intro" />
     </section>
