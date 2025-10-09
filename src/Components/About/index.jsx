@@ -6,7 +6,7 @@ export const About = () => {
     <section className="about-me" id="about">
       <h2 className="section__title section__title--about">Who I am</h2>
       <p className="section__subtitle section__subtitle--about">
-        Front-End Developer based in Sweden
+        Full-stack Developer based in Sweden
       </p>
       <img src={portfolioImg} alt="User" className="about-me__img" />
       <div className="about-me__body">
