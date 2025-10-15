@@ -7,14 +7,18 @@ import ticTacToe from "./Assets/Tic_tac_toe.jpg";
 import quizApp from "./Assets/Quiz_app.jpg";
 import productStore from "./Assets/product-store.png";
 import figmaDesign from "./Assets/lablab_figmahero.png";
+import lingoImg from "./Assets/lng.png";
+import walletHome from "./Assets/wallet3.jpg";
+import walletCreate from "./Assets/wallet6.jpg";
+import walletSignIn from "./Assets/wallet1.jpg";
+import walletSignUp from "./Assets/wallet5.jpg"
 
 export const projectsData = [
   {
     id: "9",
     image: productStore,
     title: "Fullstack Product Store",
-    subtitle:
-      "Live single-domain e-commerce demo",
+    subtitle: "Live single-domain e-commerce demo",
     link: "https://ecommerce-ea93.onrender.com",
     summary:
       "Single-domain deployment (UI + API) with clean /api routing and production build scripts with Next.js, Express, MongoDB, Zustand, Chakra UI. CRUD product flows via REST endpoints backed by MongoDB; predictable data model and validations. Responsive, accessible UI using Chakra (dialogs, forms, keyboard/focus states). Production-readiness: environment variables and error handling.",
@@ -88,5 +92,48 @@ export const projectsData = [
     link: "https://tic-tac-toe-glcn.netlify.app",
     summary:
       "The aim of the project is improving JS algorithm skills by creating computer play function. Computer can make defense and win if conditions are suitable.",
+  },
+];
+
+export const noteworthyProjectsData = [
+  // {
+  //   id: "1",
+  //   image: [ lingoImg ],
+  //   link: "https://drive.google.com/file/d/1LqGIXWXTa7ncMQEa-9l3tDphqAOFfMhh/view",
+  //   title: "Connect & Practice — Your Global Language Partner Platform",
+  //   description:
+  //     "It is a fullstack appliction designed to connect people from around the world, helping them find language partners and practice their language skills in real time. Whether you're learning a new language or polishing your fluency, this app gives you a safe, social, and interactive space to grow together.",
+  //   bullets: [
+  //     "Seamless login and signup with JWT-based authentication and protected routes backed by MongoDB.",
+  //     "Send and receive friend requests through a clean API, making it easy to build your global language network.",
+  //     "Practice languages with your partners instantly through real-time messaging and video calling powered by Stream SDK.",
+  //     "Beautiful, accessible interface with Tailwind CSS and Daisy UI, including customizable themes for a personalized experience.",
+  //     "Efficient data fetching and caching using TanStack Query and Axios, plus robust custom React hooks and an API testing suite to ensure smooth performance.",
+  //     "Node.js + Express backend integrated with a modern React frontend for a cohesive and production-ready experience.",
+  //   ],
+  //   sourceCode: "https://github.com/GulcinGulcu/lingo",
+  //   deploymentLink: "https://lingo-vn8u.onrender.com/",
+  //   isReactNative: false
+  // },
+  {
+    id: "2",
+    image: [
+      walletHome, walletCreate, walletSignIn, walletSignUp
+    ],
+    title: "Fullstack Wallet App",
+    subtitle: "RN Expense Tracker — React Native + Expo",
+    description: "A cross-platform (iOS/Android) expense tracker built with React Native and Expo. It features Clerk authentication with email verification, real-time balance updates, and an Express + Postgres backend—fully deployable with free-tier tooling.",
+    bullets: [
+      "Cross-platform app built with React Native & Expo.",
+      "Authentication via Clerk with signup/login and 6-digit email verification.",
+      "Add income/expenses, live balance calculation, and delete transactions.",
+      "Pull-to-refresh implemented from scratch for Recent Transactions.",
+      "Logout flow for easy account switching.",
+      "Express REST API with Neon-hosted Postgres database.",
+      "Cloud-deployed backend for mobile access.",
+      "Redis-based rate limiting to protect the API.",
+    ],
+    sourceCode: "https://github.com/GulcinGulcu/wallet",
+    isReactNative: true
   },
 ];
