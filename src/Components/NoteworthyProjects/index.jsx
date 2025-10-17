@@ -45,6 +45,7 @@ export const NoteworthyProjects = () => {
             </PhoneFrame>
           )}
           <div className="noteworthy-projects__body">
+            <p>{project.description}</p>
             {project.bullets.map((item, i) => (
               <p key={i}>• {item}</p>
             ))}

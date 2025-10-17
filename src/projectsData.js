@@ -121,10 +121,9 @@ export const noteworthyProjectsData = [
       walletHome, walletCreate, walletSignIn, walletSignUp
     ],
     title: "Fullstack Wallet App",
-    subtitle: "RN Expense Tracker — React Native + Expo",
+    subtitle: "React Native with Expo",
     description: "A cross-platform (iOS/Android) expense tracker built with React Native and Expo. It features Clerk authentication with email verification, real-time balance updates, and an Express + Postgres backend—fully deployable with free-tier tooling.",
     bullets: [
-      "Cross-platform app built with React Native & Expo.",
       "Authentication via Clerk with signup/login and 6-digit email verification.",
       "Add income/expenses, live balance calculation, and delete transactions.",
       "Pull-to-refresh implemented from scratch for Recent Transactions.",
