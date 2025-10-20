@@ -13,7 +13,7 @@ export const About = () => {
         <p>
           During my studies in Frontend Development program at Code2 Career, I
           gained hands-on experience in HTML, CSS, JavaScript, TypeScript and
-          React which are essential skills for a frontend developer. I completed
+          React/React Native which are essential skills for a frontend developer. I completed
           several projects that involved building responsive and user-friendly
           websites, showcasing my ability to translate design concepts into
           functional code.I expanded my skill set by learning Node.js and Express.js, enabling me to work as a full-stack developer.
