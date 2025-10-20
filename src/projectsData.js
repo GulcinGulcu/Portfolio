@@ -1,17 +1,17 @@
-import movieApp from "./assets/movie_finder.jpg";
-import memoryGame from "./assets/memory_game.jpg";
-import tailwind from "./assets/tailwind_css.jpg";
-import recipeApp from "./assets/recipe_app.jpg";
-import teacherApp from "./assets/teacher_app.jpg";
-import ticTacToe from "./assets/Tic_tac_toe.jpg";
-import quizApp from "./assets/Quiz_app.jpg";
-import productStore from "./assets/product-store.png";
-import figmaDesign from "./assets/lablab_figmahero.png";
-import lingoImg from "./assets/lng.png";
-import walletHome from "./assets/wallet3.jpg";
-import walletCreate from "./assets/wallet6.jpg";
-import walletSignIn from "./assets/wallet1.jpg";
-import walletSignUp from "./assets/wallet5.jpg"
+import movieApp from "./Assets/movie_finder.jpg";
+import memoryGame from "./Assets/memory_game.jpg";
+import tailwind from "./Assets/tailwind_css.jpg";
+import recipeApp from "./Assets/recipe_app.jpg";
+import teacherApp from "./Assets/teacher_app.jpg";
+import ticTacToe from "./Assets/Tic_tac_toe.jpg";
+import quizApp from "./Assets/Quiz_app.jpg";
+import productStore from "./Assets/product-store.png";
+import figmaDesign from "./Assets/lablab_figmahero.png";
+import lingoImg from "./Assets/lng.png";
+import walletHome from "./Assets/wallet3.jpg";
+import walletCreate from "./Assets/wallet6.jpg";
+import walletSignIn from "./Assets/wallet1.jpg";
+import walletSignUp from "./Assets/wallet5.jpg"
 
 export const projectsData = [
   {
