@@ -1,4 +1,4 @@
-import myImg from "../../Assets/me.jpg";
+import myImg from "../../assets/me.jpg";
 import "./styles.css";
 
 export const Intro = () => {

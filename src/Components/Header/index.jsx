@@ -1,6 +1,6 @@
 import { Button } from "../Button";
 import { Nav } from "../Nav";
-import logo from "../../Assets/code_logo.png";
+import logo from "../../assets/code_logo.png";
 import { useState } from "react";
 import "./styles.css";
 

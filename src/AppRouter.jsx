@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-import { Intro } from "./Components/Intro";
-import { MyServices } from "./Components/MyServices";
-import { About } from "./Components/About";
-import { MyWork } from "./Components/MyWork";
-import { MyWorkDetail } from "./Components/MyWorkDetail";
-import { Layout } from "./Components/Layout";
-import { TechStack } from "./Components/TechStack";
-import { NoteworthyProjects } from "./Components/NoteworthyProjects";
+import { Intro } from "./components/Intro";
+import { MyServices } from "./components/MyServices";
+import { About } from "./components/About";
+import { MyWork } from "./components/MyWork";
+import { MyWorkDetail } from "./components/MyWorkDetail";
+import { Layout } from "./components/Layout";
+import { TechStack } from "./components/TechStack";
+import { NoteworthyProjects } from "./components/NoteworthyProjects";
 
 export const AppRouter = () => {
   return (
