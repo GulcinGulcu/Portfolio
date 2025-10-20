@@ -6,7 +6,7 @@
 
 .section__subtitle--work {
     color: var(--color-blue);
-    background-color: transparent;
+    background-color: transparent !important;
     font-weight: bold;
     
 }
