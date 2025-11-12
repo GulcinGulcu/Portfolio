@@ -8,18 +8,18 @@ import "./styles.css";
 export const NoteworthyProjects = () => {
   return (
     <section>
-      {noteworthyProjectsData.map((project) => (
-        <section className="noteworthy-projects" id={project.id}>
+      {noteworthyProjectsData.map((project, i) => (
+        <section className={`noteworthy-projects ${i % 2 === 1 ? "reverse" : ""}`} id={project.id}>
           <h2 className="section__title section__title--noteworthy-projects">
             <span>{project.title}</span>
-            <a href="https://github.com/GulcinGulcu/wallet" target="_blank">
+            <a href={project.sourceCode} target="_blank">
               <FaGithub className="icon__github" />
             </a>
           </h2>
           <p className="section__subtitle section__subtitle--noteworthy-projects">
             {project.subtitle}
           </p>
-          {project.isReactNative && (
+          {project.isMobile && (
             <PhoneFrame className="noteworthy-projects__carousel">
               <Carousel
                 autoPlay={false}
@@ -28,14 +28,14 @@ export const NoteworthyProjects = () => {
                 showStatus={false}
                 emulateTouch
               >
-                {project.image.map((src, i) => (
+                {project.image.map((src, j) => (
                   <div
-                    key={i}
+                    key={j}
                     className="noteworthy-projects__carousel-img-container"
                   >
                     <img
                       src={src}
-                      alt={`slide-${i}`}
+                      alt={`slide-${j}`}
                       className="noteworthy-projects__carousel-img"
                     />
                   </div>
@@ -45,8 +45,8 @@ export const NoteworthyProjects = () => {
           )}
           <div className="noteworthy-projects__body">
             <p>{project.description}</p>
-            {project.bullets.map((item, i) => (
-              <p key={i}>• {item}</p>
+            {project.bullets.map((item, k) => (
+              <p key={k}>• {item}</p>
             ))}
           </div>
         </section>

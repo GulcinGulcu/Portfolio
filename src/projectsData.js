@@ -7,11 +7,17 @@ import ticTacToe from "./Assets/Tic_tac_toe.jpg";
 import quizApp from "./Assets/Quiz_app.jpg";
 import productStore from "./Assets/product-store.png";
 import figmaDesign from "./Assets/lablab_figmahero.png";
-import lingoImg from "./Assets/lng.png";
 import walletHome from "./Assets/wallet3.jpg";
 import walletCreate from "./Assets/wallet6.jpg";
 import walletSignIn from "./Assets/wallet1.jpg";
-import walletSignUp from "./Assets/wallet5.jpg"
+import walletSignUp from "./Assets/wallet5.jpg";
+import mrImgHome from "./Assets/mr-img-2.png";
+import mrImgUser from "./Assets/mr-img-1.png";
+import mrImgSettings from "./Assets/mr-img-4.png";
+import mrImgHomeLight from "./Assets/mr-img-5.png";
+import mrImgUserLight from "./Assets/mr-img-7.png";
+import mrImgSettingsLight from "./Assets/mr-img-8.png";
+import mrSuccessModal from "./Assets/mr-img-6.png";
 
 export const projectsData = [
   {
@@ -117,12 +123,11 @@ export const noteworthyProjectsData = [
   // },
   {
     id: "2",
-    image: [
-      walletHome, walletCreate, walletSignIn, walletSignUp
-    ],
+    image: [walletHome, walletCreate, walletSignIn, walletSignUp],
     title: "Fullstack Wallet App",
     subtitle: "React Native with Expo",
-    description: "A cross-platform (iOS/Android) expense tracker built with React Native and Expo. It features Clerk authentication with email verification, real-time balance updates, and an Express + Postgres backend—fully deployable with free-tier tooling.",
+    description:
+      "A cross-platform (iOS/Android) expense tracker built with React Native and Expo. It features Clerk authentication with email verification, real-time balance updates, and an Express + Postgres backend—fully deployable with free-tier tooling.",
     bullets: [
       "Authentication via Clerk with signup/login and 6-digit email verification.",
       "Add income/expenses, live balance calculation, and delete transactions.",
@@ -133,6 +138,33 @@ export const noteworthyProjectsData = [
       "Redis-based rate limiting to protect the API.",
     ],
     sourceCode: "https://github.com/GulcinGulcu/wallet",
-    isReactNative: true
+    isMobile: true,
+  },
+  {
+    id: "3",
+    image: [
+      mrImgHome,
+      mrImgUser,
+      mrImgSettings,
+      mrImgHomeLight,
+      mrImgUserLight,
+      mrImgSettingsLight,
+      mrSuccessModal,
+    ],
+    title: "Music Rewards App",
+    subtitle: "React Native Expo Bare Workflow",
+    description:
+      "A cross-platform (iOS/Android) music rewards app built with React Native (Expo Bare Workflow) and TypeScript. It features background audio playback, persistent state management with Zustand, and theme support. Users earn points by listening to full tracks, with a confetti celebration when songs finish.",
+    bullets: [
+      "Background audio handled by React Native Track Player (RNTP).",
+      "Points and progress tracking — rewards for completing a full track.",
+      "Confetti modal with congratulatory message (“You earned 150 points!”).",
+      "Global state via Zustand + AsyncStorage for user, theme, and music data.",
+      "Dynamic Light/Dark Mode support.",
+      "Home, Profile, and Settings screens with persistent navigation.",
+      "Developer tools in Settings: clear or log persisted data.",
+    ],
+    sourceCode: "https://github.com/GulcinGulcu/musicrewards",
+    isMobile: true
   },
 ];
