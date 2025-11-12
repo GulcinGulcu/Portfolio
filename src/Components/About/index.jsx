@@ -1,4 +1,3 @@
-import portfolioImg from '../../Assets/laptop-1839876_1280.jpg'
 import "./styles.css";
 
 export const About = () => {
