@@ -8,7 +8,7 @@ export const About = () => {
       <p className="section__subtitle section__subtitle--about">
         Full-stack Developer based in Sweden
       </p>
-      <img src={portfolioImg} alt="User" className="about-me__img" />
+
       <div className="about-me__body">
         <p>
           During my studies in Frontend Development program at Code2 Career, I
