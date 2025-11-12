@@ -9,7 +9,7 @@ export const NoteworthyProjects = () => {
   return (
     <section>
       {noteworthyProjectsData.map((project, i) => (
-        <section className={`noteworthy-projects ${i % 2 === 1 ? "reverse" : ""}`} id={project.id}>
+        <section className={`noteworthy-projects ${i % 2 === 1 ? "reverse" : ""}`} key={project.id} id={project.id}>
           <h2 className="section__title section__title--noteworthy-projects">
             <span>{project.title}</span>
             <a href={project.sourceCode} target="_blank" rel="noreferrer">

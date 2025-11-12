@@ -43,7 +43,7 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  display: block; 
+  display: block;
 }
 
 /* Başta okları gizle */
@@ -82,6 +82,7 @@
       "text img";
     grid-template-columns: 1fr 400px;
     align-items: start;
+    position: relative; /* z-index konteksi */
   }
 
   .noteworthy-projects.reverse {
@@ -93,21 +94,24 @@
   }
 
   .noteworthy-projects__carousel {
-    height: 100%;
-    display: block;
     grid-area: img;
     position: relative;
     z-index: 2;
     box-shadow: var(--box-shadow);
     margin-top: 1rem;
+    height: 100%;
   }
 
-  .section__title--noteworthy-projects { grid-area: title; }
-  .noteworthy-projects__body { grid-area: text; }
+  .noteworthy-projects .section__title--noteworthy-projects {
+    grid-area: title;
+  }
+  .noteworthy-projects .noteworthy-projects__body {
+    grid-area: text;
+  }
 
+  /* ===== SUBTITLE (full-bleed arka fon + hizalı metin) ===== */
   .section__subtitle--noteworthy-projects {
     grid-column: -1 / 1;
-    grid-area: subtitle;
     grid-row: 2;
     position: relative;
     left: -2rem;
@@ -115,5 +119,13 @@
     padding-left: 2rem;
     padding-right: calc(200px + 4rem);
     align-self: center;
+  }
+
+  .noteworthy-projects.reverse .section__subtitle--noteworthy-projects {
+    margin-left: 0;
+    margin-right: -2rem;
+
+    padding-left: calc(400px + 4rem); /* img solda → img + gutter */
+    padding-right: 2rem; /* metin kenarı */
   }
 }
