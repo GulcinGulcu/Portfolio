@@ -1,8 +1,7 @@
-/* ============== PhoneFrame ============== */
 .phone-frame {
   width: 280px;
   max-width: 320px;
-  margin: 1rem auto 0;   
+  margin: 1rem auto 0;
   border: 8px solid #000;
   background: #fff;
   border-radius: 40px;
@@ -34,35 +33,33 @@
   position: relative;
 }
 
-/* İçerik (Carousel) ekranı tam doldursun */
-.phone-frame .screen > * {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;      
-  display: block;
-}
-
-/* ============== Carousel zinciri yüksekliği ============== */
 .phone-frame .screen .carousel,
 .phone-frame .screen .slider-wrapper,
 .phone-frame .screen .slider,
 .phone-frame .screen .slide {
-  height: 100%;    
+  height: 100%;
 }
 
-/* ============== Görsel ============== */
 .phone-frame .screen .slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover;     
+  object-fit: cover;
   object-position: center;
   display: block;
 }
 
-/* ============== Carousel ekstra öğeleri kapat ============== */
 .phone-frame .screen .control-dots,
 .phone-frame .screen .thumbs-wrapper,
 .phone-frame .screen .carousel-status {
   display: none !important;
+}
+
+@media (min-width: 600px) {
+  .phone-frame .screen > * {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
 }
